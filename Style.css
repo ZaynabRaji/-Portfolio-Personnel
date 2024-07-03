@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(#b92b27, #1565c0);
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: times New Roman;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h2 {
     text-align: center;
 }
 
-ul {
+.navbar{
     list-style-type: none;
     margin: 2em;
     padding: 2em;
