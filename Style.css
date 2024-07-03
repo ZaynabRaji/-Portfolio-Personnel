@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(#b92b27, #1565c0);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 8em;
+    font-weight: 600em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 2em;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 2em;
+    padding: 2em;
+}
+
+li {
+    display: inline;
+    padding: 8%;
+}
+
+a {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 300em;
+}
+
+h3 {
+    color: black;
+    font-size: 2em;
+}
+
+.Presentation{
+    font-size: 2em;
+    text-align: justify;
+}
+.Projects{
+    text-align: left;
+    text-indent: 10%;
+}
