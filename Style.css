@@ -1,13 +1,17 @@
 body {
-    background: linear-gradient(#b92b27, #1565c0);
+    height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(90deg, #0093E9 0%, #80D0C7 100%);
     color: white;
-    font-family: times New Roman;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 h1 {
     font-size: 8em;
     font-weight: 600em;
     text-align: center;
+    font-style: italic;
 }
 
 h2 {
@@ -17,11 +21,11 @@ h2 {
 
 .quote {
     font-style: italic;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
 }
 
-.navbar{
+.navbar {
     list-style-type: none;
     margin: 2em;
     padding: 2em;
@@ -43,11 +47,32 @@ h3 {
     font-size: 2em;
 }
 
-.Presentation{
-    font-size: 2em;
+.resume {
+    font-size: 1.5em;
     text-align: justify;
+
 }
-.Projects{
-    text-align: left;
-    text-indent: 10%;
+
+.certificat {
+    text-align: center;
+
 }
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.flex>div {
+    text-align: center;
+
+}
+
+.footer {
+    text-align: center;
+    bottom: 0%;
+    margin-top: 20%;
+}   
