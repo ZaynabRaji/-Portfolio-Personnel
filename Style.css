@@ -9,10 +9,12 @@ body {
 
 h1 {
     font-size: 8em;
-    font-weight: 600em;
+    font-weight: 600;
     text-align: center;
     font-style: italic;
+
 }
+
 
 h2 {
     font-size: 3em;
@@ -45,6 +47,29 @@ a {
 h3 {
     color: black;
     font-size: 2em;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-200%);
+    animation: slide-in-anim 1.5s ease-out forwards;
+}
+
+@keyframes slide-in-anim {
+    20% {
+        opacity: 0;
+    }
+
+    60% {
+        transform: translateX(-45%);
+    }
+
+    75% {
+        transform: translateX(-52%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-50%);
+    }
 }
 
 .resume {
@@ -72,7 +97,33 @@ h3 {
 }
 
 .footer {
-    text-align: center;
+    text-align:center;
     bottom: 0%;
     margin-top: 20%;
-}   
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+        background-image: none;
+    }
+
+    li,
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width: 601px) {
+    body {
+        background-color: gray;
+        background-image: none;
+    }
+
+    li,
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
